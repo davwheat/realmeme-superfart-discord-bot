@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "android_discord_bot",
+  "version": "0.1.0",
+  "description": "Fuck people.",
+  "main": "src/index.js",
+  "author": "davwheat",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.27.0",
+    "node-fetch": "^3.0.0-beta.7"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "prettier --write \"src/**/*.{js,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
